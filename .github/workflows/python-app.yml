@@ -20,8 +20,8 @@ jobs:
     - name: Build & push Docker image
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
-        image: suzinee/flask
+        image: bit1010/flask
         tags: v3, latest
         registry: docker.io
-        username: suzinee
+        username: bit1010
         password: dckr_pat_YBhUF8qLcyXtug7WiLXfod8buvI
